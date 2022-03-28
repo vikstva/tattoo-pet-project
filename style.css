@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	background: linear-gradient(180deg, rgba(61, 31, 243, 0.93) 0%, #F08726 99.99%, rgba(250, 255, 0, 0.79) 100%);
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 10px;
+	align-items: center;
+	background: #3C39396B;
+}
+
+.user-icon {
+	width: 45px;
+	height: 45px;
+	background-color: gray;
+	border-radius: 50%;
+}
+
+.title-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 216px;
+}
+
+.title {
+	color: #F2F2F2;
+	font-size: 48px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.mobile-menu {
+	width: 32px;
+	height: 30px;
+	cursor: pointer;
+}
+
