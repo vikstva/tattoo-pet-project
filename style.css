@@ -1,5 +1,4 @@
 html {
-	height: 1500px;
 }
 
 body {
@@ -81,6 +80,7 @@ body {
 
 .second-section {
     height: 350px;
+    margin:70px;
 }
 
 .masters-container {
@@ -96,9 +96,8 @@ body {
 .price-container {
 	height: 340px;
 	width: 260px;
-	margin-right: 40px;
-	margin-top: 50px;
 	background: rgba(0, 0, 0, 0.23);
+	margin:25px;
 }
 
 .image-master-container {
@@ -146,5 +145,80 @@ body {
     justify-content: center;
     display: flex;
 }
-    
+
+.third-section {
+    width: 700px;
+    height: 250px;
+}
+
+.title-two {
+	color: #F2F2F2;
+	font-size: 50px;
+	font-family: 'Comfortaa', sans-serif;
+	margin:50px;
+	text-align: center;
+}
+
+.star-flex {
+	display: flex;
+    justify-content: center;
+    margin:30px;
+}
+
+.stars-margin {
+    align-items: center;
+    margin: 30px;
+}
+
+.stars {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+}
+
+.star-text {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 50px;
+    font-weight: bold;
+}
+
+.fifth-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	color: #E0E0E0;
+	background-color: #442CAC;
+	border-radius: 20px;
+	font-size: 65px;
+	height: 140px;
+	width: 560px;
+	align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin:150px;
+}
+
+.sixth-section {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%
+}
+
+.footer {
+    padding: 60px 30px;
+    background-color: rgba(0, 0, 0, 0.29);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-text {
+	color: white;
+	font-size: 30px;
+	font-family: 'Manrope', sans-serif;
 }
